@@ -6,7 +6,7 @@ import { UserContext } from "./UserContext";
 export const Register = () => {
   const [username, setUsername] = useState();
   const [password, setPassword] = useState();
-  const [isLoginOrRegister, setIsloginOrRegister] = useState('register');
+  const [isLoginOrRegister, setIsloginOrRegister] = useState('login');
 
 
   const { setUsername: setLoggedInUsername, setId } = useContext(UserContext);
